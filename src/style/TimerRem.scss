@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&family=Montserrat:wght@100;200;300;400;500;600&display=swap");
+
+.timer-rem{
+
+    display: flex;
+    justify-content: center !important;
+    #rem{
+        font-family: "montserrat";
+        font-size: 13px !important;
+        font-weight: 900;
+        text-align: center;
+        color: antiquewhite;
+    }
+}

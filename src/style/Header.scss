@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&family=Montserrat:wght@100;200;300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 30px 0 20px;
+  align-items: center;
+  // background-color: #090b12;
+  .logo {
+    cursor: pointer;
+  }
+  ul {
+    a {
+      text-decoration: none;
+    }
+    display: flex;
+    justify-content: space-between;
+    li {
+      padding: 10px 25px;
+      list-style-type: url(../img/bitok-list.jpg);
+      font-family: "montserrat";
+      font-weight: 400;
+      //   list-style-type: none;
+      color: #a0a0a0;
+    }
+  }
+  .contacts {
+    h3 {
+      padding: 3px 0;
+      list-style-type: none;
+      font-family: "montserrat";
+      font-weight: 400;
+      // list-style-type: none;
+      color: #a0a0a0;
+    }
+    p {
+      padding: 3px 0;
+      // list-style-type: none;
+      font-family: "montserrat";
+      font-weight: 400;
+      // list-style-type: none;
+      color: #a0a0a0;
+    }
+  }
+}
+
+@media screen and (min-width: 355px) and (max-width: 455px) {
+  .header {
+    display: block;
+    justify-content: space-between;
+    padding: 5px 5px 5px 10px;
+    align-items: center;
+    background-color: #090b12;
+    h1{
+      color: #fff;
+    }
+    .logo {
+      width: 200px;
+
+      img {
+        width: 100%;
+        padding-top: 10px;
+      }
+      cursor: pointer;
+    }
+    ul {
+      padding: 0 10px 50px 0;
+      display: block;
+      text-align: center;
+      a {
+        text-decoration: none;
+      }
+      li {
+        padding: 10px 30px 10px 0;
+        list-style-type: none;
+        font-family: "montserrat";
+        font-weight: 400;
+        font-size: 26px;
+        color: #a0a0a0;
+      }
+    }
+    .contacts {
+      h3 {
+        padding: 10px 0;
+        list-style-type: none;
+        font-family: "montserrat";
+        font-size: 26px;
+        font-weight: 400;
+
+        color: #a0a0a0;
+        text-align: center;
+      }
+      p {
+        padding: 3px 0;
+        font-size: 6px;
+        font-family: "montserrat";
+        font-weight: 400;
+        color: #a0a0a0;
+      }
+    }
+  }
+}
+.popup {
+  width: 15px;
+  height: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .line {
+    width: 100%;
+    height: 2.5px;
+    background-color: antiquewhite;
+    border-radius: 2px;
+  }
+}
+.logo-tel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px 0 10px;
+  button {
+    background-color: #f0b90b;
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+    font-family: "montserrat";
+    font-size: 13px;
+    font-weight: 600;
+  }
+}
+
+#menu {
+  // transition: 0.6s ease-in-out;
+  position: fixed;
+  z-index: 9;
+  width: 100%;
+  text-align: center;
+  margin-left: -10px;
+  hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    opacity: 0.3;
+  }
+  ul{
+    display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  // padding-left: 35px;
+  width: 100%;
+  a{
+    width: 100%;
+    li{
+      width: 100%;
+      display: flex;
+      padding-left: 20px;
+      justify-content: space-between !important;
+    }
+  }
+  }
+  .log-sign{
+    .log__sign{
+      width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+    }
+    .log__sign__reg{
+      padding: 0 40px 0 20px;
+      width: 100%;
+    // display: flex;
+    justify-content: space-between;
+    .log__sign__user{
+      display: flex;
+      justify-content: space-between;
+    }
+    .log__sign__accnum{
+      display: flex;
+      justify-content: space-between;
+      // margin-bottom: 20px;
+    }
+    #balance{
+      margin-bottom: 10px;
+    }
+    h3{
+      color: #a0a0a0;
+      padding-top: 20px;
+      font-family: "montserrat";
+      font-weight: 400;
+    }
+    .yellow{
+      color: #f0b90b;
+    }
+    
+    }
+    #log{
+      background-color: #414750 !important;
+    }
+    button{
+      margin: 10px 0 10px 0;
+      width: 155px;
+      background-color: #f0b90b;
+      border: none;
+      padding: 6px 20px 6px 20px;
+      border-radius: 8px;
+      font-family: "montserrat";
+      font-size: 18px;
+      font-weight: 600;
+      color: black;
+    }
+  }
+}
+.alert-enter{
+  opacity: 0;
+  transform: scale(0.9);
+}
+.alert-enter-active{
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 300ms, transform 300ms;
+}
+.alert-exit{
+  opacity: 1;
+}
+.alert-exit-active{
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
+}

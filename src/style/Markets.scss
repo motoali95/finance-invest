@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&family=Montserrat:wght@100;200;300;400;500;600&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Markets{
+    .hr{
+        margin-bottom: 20px;
+        opacity: 0.2;
+    }
+    .remain{
+        height: 100px;
+        margin-left: 5%;
+        width: 90%;
+        border: rgba(255, 255, 255, 0.2) 1px solid;
+        border-radius: 15px;
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        .remain__timer{
+            display: flex;
+            justify-content: space-between;
+            .remaining{
+                p{
+                    color: antiquewhite;
+                    font-family: 'montserrat';
+                    font-size: 11px;
+                    font-weight: 800;
+                }
+            }
+            .timer{
+                width: 100px;
+            }
+        }
+        .remain__icon{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            align-items: flex-end;
+            div{
+                display: flex;
+                align-items: center;
+                // justify-content: space-between;
+                h1{
+                    padding: 0;
+                    color: rgba(250, 235, 215, 0.995);
+                    font-family: 'montserrat';
+                    font-size: medium;
+                    margin-right: 10px;
+                }
+                p{
+                    padding: 0;
+                    font-size: small;
+                    color: rgba(250, 235, 215, 0.447);
+                    font-family: 'montserrat';
+                    font-weight: 600;
+                }
+                img{
+                    width: 25px;
+                    height: 25px;
+                    margin-right: 10px;
+                }
+            }
+            a{
+                color: #f0b90b;
+                padding-right: 10px;
+                font-family: 'montserrat';
+                font-size: 13px;
+                font-weight: 700;
+
+            }
+           
+        }
+    }
+   #market{
+    padding: 40px 25px 20px 25px;
+    color: antiquewhite;
+    font-family: 'montserrat';
+    font-size: 19px;
+    font-weight: 500;
+   }
+   .coins__box{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px 10px 25px;
+    .coin__icons{
+        display: flex;
+        justify-content: space-between;
+        ul{
+            a{
+                color: white;
+                text-decoration: none;
+            }
+            li{
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                width: 40px;
+                height: 40px;
+                padding: 5px;
+                font-family: 'montserrat';
+                list-style: none;
+                font-family: 'montserrat';
+                font-weight: 600;
+                font-size: medium;
+                margin-bottom: 15px;
+                img{
+                    width: 100%;
+                    margin-right: 10px;
+                }
+            }
+        }
+        
+       }
+       .coin__cost{
+        ul{
+            a{
+                color: white;
+                text-decoration: none;
+            }
+            .color{
+                // color: #f0b90b;
+                color: rgba(17, 204, 17, 0.521);
+            }
+            li{
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                width: 40px;
+                height: 40px;
+                padding: 5px;
+                font-family: 'montserrat';
+                margin-left: -85px;
+                list-style: none;
+                font-family: 'montserrat';
+                font-weight: 600;
+                font-size: medium;
+                margin-bottom: 15px;
+            }
+        }
+       }
+   }
+   .features{
+    width: 100%;
+    padding: 20px 25px;
+    .features__f{
+      display: flex;
+      justify-content: space-between;
+      font-family: "montserrat";
+      align-items: center;
+      padding: 5px 0;
+      color: antiquewhite;
+      h3{
+        font-weight: 400;
+      }
+      h1{
+        font-weight: 800;
+      }
+    }
+    hr{
+      margin-top: 15px;
+      color: rgb(250, 235, 215);
+      opacity: 0.3;
+      // width: 120%;
+      // text-align: center;
+    }
+  }
+  .foot{
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: start;
+    font-family: 'montserrat';
+    p{
+      font-size: 11px;
+      color: rgba(250, 235, 215, 0.306);
+    }
+  }
+}

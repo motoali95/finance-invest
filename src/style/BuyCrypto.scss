@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&family=Montserrat:wght@100;200;300;400;500;600&display=swap");
+.BuyCrypto {
+  color: antiquewhite;
+  padding: 0 30px 0 30px;
+  #buy-crypto-title{
+      color: antiquewhite;
+    font-family: 'montserrat';
+    font-size: 25px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+  }
+  .converter__box {
+    border: rgba(255, 255, 255, 0.409) solid 0.5px ;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #0e111a;
+    border-radius: 15px;
+    text-align: center;
+    #get {
+      margin-top: 20px;
+    }
+    h3 {
+      color: antiquewhite;
+      font-family: "montserrat";
+      margin-bottom: 30px;
+      // margin-top: 30px;
+      // padding: 0 20px 0 20px;
+      text-align: center;
+      background-color: #0e111a;
+    }
+    .amount {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #0e111a;
+      .amount__amount {
+        align-items: center;
+        .get__tether {
+          background-color: antiquewhite;
+          color: black;
+          margin-bottom: 0;
+          height: 30px;
+          width: 185px;
+          border-radius: 5px;
+          display: flex;
+          align-items: center;
+          padding-left: 10px;
+          // justify-content: center;
+          span {
+            // color: black;
+            background-color: antiquewhite;
+            font-family: 'montserrat';
+          }
+        }
+      }
+
+      div {
+        text-align: center;
+        background-color: #0e111a;
+      }
+      p {
+        color: antiquewhite;
+        font-family: "montserrat";
+        margin-bottom: 10px;
+        // padding-left: 50px;
+        background-color: #0e111a;
+      }
+      input {
+        background-color: antiquewhite;
+        height: 30px;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        font-family: 'montserrat';
+        font-size: 18px;
+        width: 185px;
+      }
+      select {
+        height: 30px;
+        // padding: 10px;
+        background-color: antiquewhite;
+        border: none;
+        border-radius: 5px;
+        font-family: 'montserrat';
+        font-size: 16px;
+        width: 85px;
+        option {
+          color: black;
+          background-color: antiquewhite;
+          font-family: 'montserrat';
+        }
+      }
+    }
+
+    button {
+      background-color: #f0b90b;
+      border: none;
+      padding: 15px 35px 15px 35px;
+      border-radius: 8px;
+      font-family: "montserrat";
+      font-size: 18px;
+      font-weight: 600;
+      color: black;
+      margin-top: 70px;
+      width: 100%;
+    }
+  }
+  .foot__description{
+    color: rgba(250, 235, 215, 0.21);
+    font-family: "montserrat";
+    font-size: 11px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+  .features{
+    width: 100%;
+    padding: 20px 0;
+    .features__f{
+      display: flex;
+      justify-content: space-between;
+      font-family: "montserrat";
+      align-items: center;
+      padding: 5px 0;
+      color: antiquewhite;
+      h3{
+        font-weight: 400;
+      }
+      h1{
+        font-weight: 800;
+      }
+    }
+    hr{
+      margin-top: 15px;
+      color: rgb(250, 235, 215);
+      opacity: 0.3;
+      // width: 120%;
+      // text-align: center;
+    }
+  }
+  .foot{
+    padding-bottom: 50px;
+    // padding-left: 30px;
+    // padding-right: 30px;
+    text-align: start;
+    font-family: 'montserrat';
+    p{
+      font-size: 11px;
+      color: rgba(250, 235, 215, 0.306);
+    }
+  }
+}
